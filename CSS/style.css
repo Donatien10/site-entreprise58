@@ -228,6 +228,14 @@ p{
     position: relative;
     left: 30px;
     top: -480px;
+    font-size: 20px;
+    color: orangered;
+}
+.bijou h2{
+    position: relative;
+    left: 30px;
+    top: -440px;
+    font-size: 40PX;
 }
 
 .bij img{
@@ -240,6 +248,115 @@ p{
     position: relative;
     left: 30px;
     top: -400px;
+}
+.bijouteries{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    left: 200px;
+    top: -320px;
+    border-radius: 40px;
+    background-color: orangered;
+    outline-style: none;
+    color: white;
+    cursor: pointer;
+}
+.verslaFin h1{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: orangered;
+ font-size: 40px;
+}
+.laDisponibilite h1{
+    position: relative;
+    top: 300px;
+    left: 100px;
+    color: blue;
+    font-size: 15px;
+}
+.laDisponibilite h3{
+    position: relative;
+    top: 320px;
+    left: 100px;
+    font-size: 10px;
+}
+.qualite h1{
+    position: relative;
+    top: 230px;
+    left: 400px;
+    color: blue;
+    font-size: 15px;
+}
+.qualite h3{
+    position: relative;
+    top: 250px;
+    left: 400px;
+    font-size: 10px;
+}
+.solution h1{
+    position: relative;
+    top: 160px;
+    left: 700px;
+    color: blue;
+    font-size: 15px;
+}
+.solution h3{
+    position: relative;
+    top: 180px;
+    left: 700px;
+    font-size: 10px;
+}
+.mesure h1{
+    position: relative;
+    top: 100px;
+    left: 1000px;
+    color: blue;
+    font-size: 15px;
+}
+.mesure h3{
+    position: relative;
+    top: 120px;
+    left: 1000px;
+    font-size: 10px;
+}
+.reference h1{
+    position: relative;
+    top: 400px;
+    left: 550px;
+    color: blue;
+}
+.references img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 450px;
+   padding: 20px;
+   left: 400px;
+   animation-duration: 8s;
+   animation-name: mesImages;
+   animation-iteration-count: infinite;
+
+}
+@keyframes mesImages{
+    0%{
+        transform: translateX(640px);
+    }
+    25%{
+        transform: translateX(-640px);
+    }
+    50%{
+        transform: translateX(-1280px);
+    }
+    75%{
+        transform: translateX(-1920);
+    }
+    100%{
+        transform: translateX(640px);
+    }
 }
 
 
