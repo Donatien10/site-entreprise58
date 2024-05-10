@@ -105,12 +105,15 @@ p{
     top: -230px;
     font-size: 15px;
 }
-.lesEcrituredeTisserand button{
+.doma {
     position: relative;
     width: 120px;
     height: 50px;
     left: 900px;
     top: -180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 30px;
     background-color: orangered;
     color: white;
@@ -336,7 +339,7 @@ p{
     top: 450px;
    padding: 20px;
    left: 400px;
-   animation-duration: 8s;
+   animation-duration: 20s;
    animation-name: mesImages;
    animation-iteration-count: infinite;
 
@@ -345,19 +348,33 @@ p{
     0%{
         transform: translateX(640px);
     }
-    25%{
-        transform: translateX(-640px);
+    100%{
+        transform: translateX(640px);
     }
     50%{
-        transform: translateX(-1280px);
+        transform: translateX(-640px);
     }
     75%{
-        transform: translateX(-1920);
+        transform: translateX(-640px);
     }
     100%{
         transform: translateX(640px);
     }
 }
+    .bande-blanc img{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        left: 40px;
+        top: -990px;
+    }
+    .imgages1 img{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        left: 40px;
+        top: -850px;
+    }
 
 
 
